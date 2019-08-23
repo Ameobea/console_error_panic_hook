@@ -13,4 +13,4 @@ travis-ci = { repository = "rustwasm/console_error_panic_hook" }
 
 [dependencies]
 cfg-if = "0.1.6"
-wasm-bindgen = "0.2.37"
+wasm-bindgen = { git = "https://github.com/rustwasm/wasm-bindgen.git", rev = "fb0bbc00" }
